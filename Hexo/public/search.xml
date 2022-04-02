@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Sublime</title>
+      <link href="/2022/04/02/sublime/"/>
+      <url>/2022/04/02/sublime/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Sublime-Text4-Build-4126-安装-破解-汉化"><a href="#Sublime-Text4-Build-4126-安装-破解-汉化" class="headerlink" title="Sublime Text4(Build 4126) 安装  破解 汉化"></a>Sublime Text4(Build 4126) 安装  破解 汉化</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>官网地址：<a href="https://www.sublimetext.com/download">https://www.sublimetext.com/download</a></p><h3 id="破解"><a href="#破解" class="headerlink" title="破解"></a>破解</h3><ul><li><p>打开Sublime ，点击菜单栏 <code>Help---&gt;Enter License</code></p><p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301530300.png" alt="image-20220330143650446"></p></li><li><p>复制粘贴下方注册码（需全部复制粘贴）</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">—– BEGIN LICENSE —–Mifeng UserSingle User LicenseEA7E-1184812C0DAA9CD 6BE825B5 FF935692 1750523AEDF59D3F A3BD6C96 F8D33866 3F1CCCEA1C25BE4D 25B1C4CC 5110C20E 5246CC42D232C83B C99CCC42 0E32890C B6CBF018B1D4C178 2F9DDB16 ABAA74E5 95304BEF9D0CCFA9 8AF8F8E2 1E0A955E 4771A57650737C65 325B6C32 817DCB83 A7394DFA27B7E747 736A1198 B3865734 0B434AA5—— END LICENSE ——<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>点击 <code>Use License</code>  出现下方弹窗 ，点击 <code>确定</code> 。</p><p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301442923.png" alt="image-20220330144245899"></p></li><li><p>检查是否破解成功</p><p>点击菜单栏 <code>Help---&gt;About Sublime Text</code> 出现如下所示即为成功。</p><p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301450491.png" alt="image-20220330145000467"></p></li></ul><h3 id="汉化"><a href="#汉化" class="headerlink" title="汉化"></a>汉化</h3><ul><li><p>点击菜单栏<code>Tools---&gt;Install Package Control</code> 跳出弹框点击 <code>确定</code>按钮</p><p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301455310.png" alt="image-20220330145544280"></p></li></ul><p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301452799.png" alt="image-20220330145207777"></p><ul><li><p>点击菜单栏 <code>Preferences – Package Control</code></p></li><li><p>弹框中输入 <code>install package</code>，选中 <code>Package Control: Install Package</code> 然后等待弹窗(可能需要耐心等待一段时间) </p><p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202204021201981.png" alt="image-20220330150505427"></p></li><li><p>等出现如下弹窗后, 在弹窗的搜索框中输入 <code>ChineseLocalizations</code> , 点击出现的选项</p><p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301510022.png" alt="image-20220330151045998"></p></li><li><p>等待一段时间，如果出现了如下画面则汉化步骤全部完成</p><p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202204021201692.png" alt="image-20220330151247475"></p></li><li><p>后续若需要更改，可点击菜单栏 <code>帮助---&gt;Language</code> 选择进行更改。</p><p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202204021201452.png" alt="image-20220330151535898"></p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Sublime </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
