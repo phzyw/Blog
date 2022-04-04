@@ -1,6 +1,7 @@
 ---
 title: Sublime Text4(Build 4126) 安装  破解 汉化
 date: 2022-04-02 11:58:13
+img: https://raw.githubusercontent.com/phzyw/img/main/images/202204041139672.jpg
 tags: 
   - 前端
   - Sublime
