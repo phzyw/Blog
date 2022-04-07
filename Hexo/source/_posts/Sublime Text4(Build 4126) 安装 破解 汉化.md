@@ -22,7 +22,7 @@ categories:
 
 - 打开Sublime ，点击菜单栏 `Help--->Enter License`
 
-  ![image-20220330143650446](https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301530300.png)
+  ![](https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301530300.png)
 
   
 
@@ -46,7 +46,7 @@ categories:
 
   点击 `Use License`  出现下方弹窗 ，点击 `确定` 。
 
-  ![image-20220330144245899](https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301442923.png)
+  ![](https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301442923.png)
 
   
 
@@ -54,7 +54,7 @@ categories:
 
   点击菜单栏 `Help--->About Sublime Text` 出现如下所示即为成功。
 
-  ![image-20220330145000467](https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301450491.png)
+  ![](https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301450491.png)
 
   
 
@@ -62,27 +62,27 @@ categories:
 
 - 点击菜单栏`Tools--->Install Package Control` 跳出弹框点击 `确定`按钮
 
-  ![image-20220330145544280](https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301455310.png)
+  ![](https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301455310.png)
 
-![image-20220330145207777](https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301452799.png)
+![](https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301452799.png)
 
 - 点击菜单栏 `Preferences – Package Control`
 
 - 弹框中输入 `install package`，选中 `Package Control: Install Package` 然后等待弹窗(可能需要耐心等待一段时间) 
 
-  ![image-20220330150505427](https://cdn.jsdelivr.net/gh/phzyw/img/images/202204021201981.png)
+  ![](https://cdn.jsdelivr.net/gh/phzyw/img/images/202204021201981.png)
 
 - 等出现如下弹窗后, 在弹窗的搜索框中输入 `ChineseLocalizations` , 点击出现的选项
 
-  ![image-20220330151045998](https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301510022.png)
+  ![](https://cdn.jsdelivr.net/gh/phzyw/img/images/202203301510022.png)
 
 - 等待一段时间，如果出现了如下画面则汉化步骤全部完成
 
-  ![image-20220330151247475](https://cdn.jsdelivr.net/gh/phzyw/img/images/202204021201692.png)
+  ![](https://cdn.jsdelivr.net/gh/phzyw/img/images/202204021201692.png)
 
 - 后续若需要更改，可点击菜单栏 `帮助--->Language` 选择进行更改。
 
-  ![image-20220330151535898](https://cdn.jsdelivr.net/gh/phzyw/img/images/202204021201452.png)
+  ![](https://cdn.jsdelivr.net/gh/phzyw/img/images/202204021201452.png)
 
 
 
