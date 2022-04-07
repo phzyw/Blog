@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="404, Blog">
+    <meta name="keywords" content="标签: 软件, Blog">
     <meta name="description" content="个人博客 | 随笔 | 技术分享">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -19,7 +19,7 @@
 
     
 
-    <title>404 | phのBlog</title>
+    <title>标签: 软件 | phのBlog</title>
     <link rel="icon" type="image/png" href="/logo.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -220,41 +220,147 @@
 
 </header>
 
-    <style type="text/css">
-    /* don't remove. */
-    .about-cover {
-        height: 90.2vh;
-    }
-</style>
-<div class="bg-cover pd-header about-cover">
+    <div class="bg-cover pd-header about-cover">
     <div class="container">
-        <div class="row">
-            <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-                <div class="brand">
-                    <div class="title center-align">
-                        404 Not Found 
-                    </div>
-                    <!-- <div class="title center-align">
-                        试试右上角的<span style="color:blue;font-weight:bold">搜索</span>功能？
-                    </div> -->
-                    <!-- <div class="title center-align">
-                        <a href="/" target="_blank">返回首页</a>
-                    </div> -->
-                    <div class="description center-align" style="color:#ff0000a3;font-weight:bold">
-                        对不起！ 没有找到你想要的页面 :(
-                    </div>
-                </div>
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                phの博客
+                
+            </div>
+
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: [ 
+                            
+                                "努力不一定成功,但不努力一定不会成功",
+                            
+                                "Presistence may not lead to success, but not efforts will not succeed.",
+                            
+                        ],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
             </div>
         </div>
     </div>
 </div>
 
 
-    <script>
-        // 每天切换 banner 图.  Switch banner image every day.
-        var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-    </script>
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+</script>
+
+
+    </div>
+</div>
+
+<main class="content">
+
+    
+
+<div id="tags" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
+            </div>
+            <div class="tag-chips">
+                
+                
+                <a href="/tags/%E5%89%8D%E7%AB%AF/" title="前端: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="前端" style="background-color: #F9EBEA;">前端
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Sublime/" title="Sublime: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Sublime" style="background-color: #F5EEF8;">Sublime
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E8%BD%AF%E4%BB%B6/" title="软件: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="软件" style="background-color: #D5F5E3;">软件
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E9%9B%B7%E7%94%B5%E6%A8%A1%E6%8B%9F%E5%99%A8/" title="雷电模拟器: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="雷电模拟器" style="background-color: #E8F8F5;">雷电模拟器
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="软件, 雷电模拟器" data-aos="fade-up">
+                <div class="card">
+                    <a href="/2022/04/07/lei-dian-mo-ni-qi-shi-yong-auto.js-da-kai-zhi-zhen-wei-zhi-bu-xian-shi-zuo-biao/">
+                        <div class="card-image tag-image">
+                            
+                            <img src="https://raw.githubusercontent.com/phzyw/img/main/images/202204071446356.jpg" class="responsive-img" alt="雷电模拟器使用auto.js打开指针位置不显示坐标">
+                            
+                            <span class="card-title">雷电模拟器使用auto.js打开指针位置不显示坐标</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-07
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/" class="post-category">
+                                软件工具
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </article>
+</main>
+
 
 
 

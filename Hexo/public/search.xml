@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>雷电模拟器使用auto.js打开指针位置不显示坐标</title>
+      <link href="/2022/04/07/lei-dian-mo-ni-qi-shi-yong-auto.js-da-kai-zhi-zhen-wei-zhi-bu-xian-shi-zuo-biao/"/>
+      <url>/2022/04/07/lei-dian-mo-ni-qi-shi-yong-auto.js-da-kai-zhi-zhen-wei-zhi-bu-xian-shi-zuo-biao/</url>
+      
+        <content type="html"><![CDATA[<ol><li> <code>右键</code>雷电模拟器，打开安装目录</li></ol><p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202203300040696.png"></p><ol start="2"><li>找到<code>vms</code>文件夹</li></ol><p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202203300040654.png"></p><ol start="3"><li>在<code>vms</code>文件夹下创建一个<code>debug.txt</code>空文件</li></ol><p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202203300045846.png"></p><ol start="4"><li><code>重新启动！重新启动！重新启动！</code></li></ol><p>​    设置后重新启动模拟器，否则不会成功。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+            <tag> 雷电模拟器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Sublime Text4(Build 4126) 安装  破解 汉化</title>
       <link href="/2022/04/02/sublime-text4-build-4126-an-zhuang-po-jie-han-hua/"/>
       <url>/2022/04/02/sublime-text4-build-4126-an-zhuang-po-jie-han-hua/</url>
