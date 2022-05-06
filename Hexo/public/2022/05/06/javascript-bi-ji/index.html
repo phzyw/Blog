@@ -4,24 +4,15 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="雷电模拟器使用auto.js打开指针位置不显示坐标, Blog">
+    <meta name="keywords" content="JavaScript笔记, Blog">
     <meta name="description" content="
- 右键雷电模拟器，打开安装目录
-
-
-
-找到vms文件夹
-
-
-
-在vms文件夹下创建一个debug.txt空文件
-
-
-
-重新启动！重新启动！重新启动！
-
-​    设置后重新启动模拟器，否则不会成功。
-">
+数组去重 
+  ES6 方法  new Set()
+  &amp;lt;script&gt;
+    // 数组去重
+    let arr = [1,3,3,6];
+    let newArr = new Set(arr);
+    console">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -35,7 +26,7 @@
 
     
 
-    <title>雷电模拟器使用auto.js打开指针位置不显示坐标 | phのBlog</title>
+    <title>JavaScript笔记 | phのBlog</title>
     <link rel="icon" type="image/png" href="/logo.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -240,12 +231,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://raw.githubusercontent.com/phzyw/img/main/images/202204071446356.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">雷电模拟器使用auto.js打开指针位置不显示坐标</h1>
+                    <h1 class="description center-align post-title">JavaScript笔记</h1>
                 </div>
             </div>
         </div>
@@ -361,12 +352,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E8%BD%AF%E4%BB%B6/">
-                                <span class="chip bg-color">软件</span>
-                            </a>
-                        
-                            <a href="/tags/%E9%9B%B7%E7%94%B5%E6%A8%A1%E6%8B%9F%E5%99%A8/">
-                                <span class="chip bg-color">雷电模拟器</span>
+                            <a href="/tags/JavaScript/">
+                                <span class="chip bg-color">JavaScript</span>
                             </a>
                         
                     </div>
@@ -377,8 +364,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/" class="post-category">
-                                软件工具
+                            <a href="/categories/%E5%89%8D%E7%AB%AF/" class="post-category">
+                                前端
                             </a>
                         
                     </div>
@@ -390,7 +377,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-04-07
+                    2022-05-06
                 </div>
                 
 
@@ -399,7 +386,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    61
+                    402
                 </div>
                 
 
@@ -429,22 +416,52 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <ol>
-<li> <code>右键</code>雷电模拟器，打开安装目录</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202203300040696.png"></p>
-<ol start="2">
-<li>找到<code>vms</code>文件夹</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202203300040654.png"></p>
-<ol start="3">
-<li>在<code>vms</code>文件夹下创建一个<code>debug.txt</code>空文件</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/phzyw/img/images/202203300045846.png"></p>
-<ol start="4">
-<li><code>重新启动！重新启动！重新启动！</code></li>
-</ol>
-<p>​    设置后重新启动模拟器，否则不会成功。</p>
+                <ul>
+<li><p>数组去重 </p>
+<p>  ES6 方法  new Set()</p>
+  <pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+    <span class="token comment">// 数组去重</span>
+    <span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> newArr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Set</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>newArr<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//输出结果为 Set(3) &#123;1,3,6&#125;</span>
+    <span class="token comment">// 遍历去重后的数组</span>
+    newArr<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token parameter">element</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>element<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//输出结果为 1，3，6</span>
+    <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+</li>
+<li><p>数组合并</p>
+<p>合并 ：concat（）</p>
+<pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+    <span class="token comment">// 数组合并，利用array.concat(array1,array2...,arrayn)</span>
+    <span class="token comment">// array 代表合并在哪个数组里</span>
+    <span class="token comment">// array1,array2...,arrayn  指的是可以合并多个数组</span>
+    <span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> arr2 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> arr3 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> totalArr <span class="token operator">=</span> arr<span class="token punctuation">.</span><span class="token function">concat</span><span class="token punctuation">(</span>arr2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> totalArr2 <span class="token operator">=</span> arr<span class="token punctuation">.</span><span class="token function">concat</span><span class="token punctuation">(</span>arr2<span class="token punctuation">,</span>arr3<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>totalArr<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 输出结果为 [1, 3, 3, 6, 7, 8, 9]</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>totalArr2<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">// 输出结果为 [1, 3, 3, 6, 7, 8, 9, 7, 8, 9]</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li><p>数组排序</p>
+<p>sort() 方法。主要作用于对数组的元素进行排序。其中，sort()方法有一个可选参数。但是，此参数必须是函数。数组在调用sort()方法时，如果没有传参将按字母顺序（字符编码顺序）对数组中的元素进行排序，如果想按照其他标准进行排序，就需要进行传一个参数且为函数，该函数要比较两个值，并且会返回一个用于说明这两个值的相对顺序的数字。</p>
+<pre class="line-numbers language-HTML" data-language="HTML"><code class="language-HTML">&lt;script&gt;
+        &#x2F;&#x2F; 
+        &#x2F;&#x2F; 数组排序（升序、降序）
+        &#x2F;&#x2F; 利用 array.sort()
+        let arr &#x3D; [1,3,6,5,4,2,11];
+        arr.sort(function (a,b) &#123;
+            &#x2F;&#x2F; 升序
+            return a - b; &#x2F;&#x2F; 输出结果：[1, 2, 3, 4, 5, 6, 11]
+            &#x2F;&#x2F; 降序
+            &#x2F;&#x2F; return b - a;&#x2F;&#x2F; 输出结果：[11, 6, 5, 4, 3, 2, 1]
+        &#125;)
+        console.log(arr);
+        
+&lt;&#x2F;script&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+</ul>
 
                 
             </div>
@@ -471,7 +488,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://phzyw.github.io/2022/04/07/lei-dian-mo-ni-qi-shi-yong-auto.js-da-kai-zhi-zhen-wei-zhi-bu-xian-shi-zuo-biao/">https://phzyw.github.io/2022/04/07/lei-dian-mo-ni-qi-shi-yong-auto.js-da-kai-zhi-zhen-wei-zhi-bu-xian-shi-zuo-biao/</a>
+                    <a href="https://phzyw.github.io/2022/05/06/javascript-bi-ji/">https://phzyw.github.io/2022/05/06/javascript-bi-ji/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -509,12 +526,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E8%BD%AF%E4%BB%B6/">
-                                    <span class="chip bg-color">软件</span>
-                                </a>
-                            
-                                <a href="/tags/%E9%9B%B7%E7%94%B5%E6%A8%A1%E6%8B%9F%E5%99%A8/">
-                                    <span class="chip bg-color">雷电模拟器</span>
+                                <a href="/tags/JavaScript/">
+                                    <span class="chip bg-color">JavaScript</span>
                                 </a>
                             
                         </div>
@@ -688,9 +701,60 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2022/05/06/javascript-bi-ji/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="JavaScript笔记">
+                        
+                        <span class="card-title">JavaScript笔记</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-06
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%89%8D%E7%AB%AF/" class="post-category">
+                                    前端
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/JavaScript/">
+                        <span class="chip bg-color">JavaScript</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2022/05/01/vue-zhong-tu-pian-yin-ru-lu-jing-wen-ti/">
                     <div class="card-image">
@@ -708,9 +772,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-01
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-01
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -728,58 +792,6 @@
                     
                     <a href="/tags/vue/">
                         <span class="chip bg-color">vue</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2022/04/02/sublime-text4-build-4126-an-zhuang-po-jie-han-hua/">
-                    <div class="card-image">
-                        
-                        <img src="https://raw.githubusercontent.com/phzyw/img/main/images/202204041139672.jpg" class="responsive-img" alt="Sublime Text4(Build 4126) 安装  破解 汉化">
-                        
-                        <span class="card-title">Sublime Text4(Build 4126) 安装  破解 汉化</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-02
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/" class="post-category">
-                                    软件工具
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%89%8D%E7%AB%AF/">
-                        <span class="chip bg-color">前端</span>
-                    </a>
-                    
-                    <a href="/tags/Sublime/">
-                        <span class="chip bg-color">Sublime</span>
                     </a>
                     
                 </div>
